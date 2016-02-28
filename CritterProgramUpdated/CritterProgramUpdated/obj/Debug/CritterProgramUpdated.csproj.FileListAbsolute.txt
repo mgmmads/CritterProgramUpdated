@@ -1,0 +1,14 @@
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\bin\Debug\CritterProgramUpdated.exe.config
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\bin\Debug\CritterProgramUpdated.exe
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\bin\Debug\CritterProgramUpdated.pdb
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\CritterProgramUpdated.csprojResolveAssemblyReference.cache
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\MainWindow.g.cs
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\App.g.cs
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\CritterProgramUpdated_MarkupCompile.cache
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\CritterProgramUpdated_MarkupCompile.lref
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\MainWindow.baml
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\CritterProgramUpdated.g.resources
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\CritterProgramUpdated.Properties.Resources.resources
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\CritterProgramUpdated.csproj.GenerateResource.Cache
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\CritterProgramUpdated.exe
+C:\Users\Mads\Documents\GitHub\CritterProgramUpdated\CritterProgramUpdated\CritterProgramUpdated\obj\Debug\CritterProgramUpdated.pdb
