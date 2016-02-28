@@ -38,11 +38,16 @@ namespace CritterProgramUpdated
         {
             HungerStateLbl.Content = Controller.CritterHappiness();
             HappinessStateLbl.Content =  Controller.CritterHunger();
+            CleannessStateLbl.Content = Controller.CritterCleanness();
+            RestnessStateLbl.Content = Controller.CritterRestness();
+
             if (Controller.CritterAliveCheck() == false)
             {
                 CritterTalkingTextBlock.Text = "Your Critter is dead!";
                 FeedCritterBtn.IsEnabled = false;
                 PlayWithCritterBtn.IsEnabled = false;
+                BathCritterBtn.IsEnabled = false;
+                RestCritterBtn.IsEnabled = false;
             }
         }
 
@@ -56,6 +61,20 @@ namespace CritterProgramUpdated
         private void PlayWithCritterBtn_Click(object sender, RoutedEventArgs e)
         {
             CritterTalkingTextBlock.Text = CritterTalkingTextBlock.Text + Controller.CritterAction("PlayWithCritter") + "\n";
+            CheckIfBoxIsScrolled();
+            UpdateState();
+        }
+
+        private void BathCritterBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CritterTalkingTextBlock.Text = CritterTalkingTextBlock.Text + Controller.CritterAction("BathCritter") + "\n";
+            CheckIfBoxIsScrolled();
+            UpdateState();
+        }
+
+        private void RestCritterBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CritterTalkingTextBlock.Text = CritterTalkingTextBlock.Text + Controller.CritterAction("RestCritter") + "\n";
             CheckIfBoxIsScrolled();
             UpdateState();
         }

@@ -22,6 +22,14 @@ namespace CritterProgramUpdated
             {
                 return newCritter.PlayWithCritter();
             }
+            else if (actionChoice == "BathCritter")
+            {
+                return newCritter.BathCritter();
+            }
+            else if (actionChoice == "RestCritter")
+            {
+                return newCritter.RestCritter();
+            }
             else
             {
                 return ""; //returns nothing.
@@ -36,6 +44,16 @@ namespace CritterProgramUpdated
         static public string CritterHunger()
         {
             return newCritter.CheckHungerStat();
+        }
+
+        static public string CritterCleanness()
+        {
+            return newCritter.CheckCleanStat();
+        }
+
+        static public string CritterRestness()
+        {
+            return newCritter.CheckRestStat();
         }
 
         static public bool CritterAliveCheck()

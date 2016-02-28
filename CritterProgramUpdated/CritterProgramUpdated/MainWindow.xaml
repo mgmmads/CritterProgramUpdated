@@ -10,20 +10,28 @@
         <Grid HorizontalAlignment="Center" Height="250" Margin="56,38,61,32" VerticalAlignment="Center" Width="400">
             <Button x:Name="FeedCritterBtn" Content="Feed" HorizontalAlignment="Left" Margin="280,10,0,0" VerticalAlignment="Top" Width="75" Click="FeedCritterBtn_Click"/>
             <Button x:Name="PlayWithCritterBtn" Content="Play" HorizontalAlignment="Left" Margin="280,40,0,0" VerticalAlignment="Top" Width="75" Click="PlayWithCritterBtn_Click"/>
+            <Button x:Name="BathCritterBtn" Content="Bath" HorizontalAlignment="Left" Margin="280,70,0,0" VerticalAlignment="Top" Width="75" Click="BathCritterBtn_Click"/>
+            <Button x:Name="RestCritterBtn" Content="Rest" HorizontalAlignment="Left" Margin="280,100,0,0" VerticalAlignment="Top" Width="75" Click="RestCritterBtn_Click"/>
 
             <ScrollViewer Name="ScrollViewer" Margin="10,10,0,0" Height="230" Width="225" HorizontalAlignment="Left" VerticalAlignment="Top" CanContentScroll="True">
                 <Border BorderBrush="Red" BorderThickness="2">
                     <TextBlock Width="auto" TextWrapping="Wrap" Name="CritterTalkingTextBlock"></TextBlock>
                 </Border>
             </ScrollViewer>
-            <StackPanel HorizontalAlignment="Left" Height="55" Margin="230,170,0,0" VerticalAlignment="Top" Width="70">
+            <StackPanel HorizontalAlignment="Left" Height="110" Margin="240,140,0,0" VerticalAlignment="Top" Width="70">
                 <Label x:Name="HungerLbl" Content="Hunger:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                 <Label x:Name="HappinessLbl" Content="Happiness:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <Label x:Name="BathLbl" Content="Clean:"/>
+                <Label x:Name="RestLbl" Content="Rest:"/>
             </StackPanel>
-            <StackPanel HorizontalAlignment="Left" Height="55" Margin="300,170,0,0" VerticalAlignment="Top" Width="80">
+            <StackPanel HorizontalAlignment="Left" Height="110" Margin="310,140,0,0" VerticalAlignment="Top" Width="80">
                 <Label x:Name="HungerStateLbl" Content=""/>
                 <Label x:Name="HappinessStateLbl" Content=""/>
+                <Label x:Name="CleannessStateLbl" Content=""/>
+                <Label x:Name="RestnessStateLbl" Content=""/>
             </StackPanel>
+          
+
         </Grid>
     </Grid>
 </Window>
